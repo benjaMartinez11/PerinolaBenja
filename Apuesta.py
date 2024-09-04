@@ -2,12 +2,12 @@ class Apuesta:
      def __init__(self):
           self.fichas = 0
      def __repr__(self):
-          return f"Apuesta: {self.fichas} fichas" 
+          return f"Apuesta: {self.fichas} Fichas" 
      def ponerFichas(self,Cuantas=1):
           self.fichas = self.fichas + Cuantas
      def tomarFichas(self, Cuantas=1):
         if Cuantas > self.fichas:
-            raise ValueError("No hay suficientes fichas en la apuesta")
+            raise ValueError("No hay muchas fichas en la apuesta")
         self.fichas = self.fichas - Cuantas
      def tomarTodas(self):
         todas = self.fichas
