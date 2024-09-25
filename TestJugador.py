@@ -1,5 +1,5 @@
 import pytest
-from jugador import Jugador
+from Jugador import Jugador
 
 def test_prueba():
     assert(True)
